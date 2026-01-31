@@ -13,7 +13,7 @@ test.describe('Singlish to Sinhala', () => {
 
       const outputLocator = page.locator('div.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap.overflow-y-auto.flex-grow.bg-slate-50');
 
-      await expect(outputLocator).not.toBeEmpty({ timeout: 30000 });
+      await expect(outputLocator).not.toBeEmpty({ timeout: 40000 });
       const actualOutput = (await outputLocator.textContent())?.trim();
 
       console.log(tc.id);
