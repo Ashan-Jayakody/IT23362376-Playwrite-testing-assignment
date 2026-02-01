@@ -17,6 +17,8 @@ Make sure the following are installed on your machine:
 ### 1️. Clone the Repository
 ```bash
 git clone https://github.com/Ashan-Jayakody/IT23362376-Playwrite-testing-assignment.git
+
+cd IT23362376-Playwrite-testing-assignment  
 cd IT23362376
 ```
 ### 2️. Install dependencies
